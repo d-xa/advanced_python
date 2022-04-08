@@ -1,5 +1,5 @@
-# A decorator function takes another function as argument, wraps its behaviour inside
-# an inner function, and returns the wrapped function.
+# A decorator function takes another function as argument, 
+# wraps its behaviour inside an inner function, and returns the wrapped function.
 def decorater_function(func):
     def wrapper():
         print('Start')
@@ -8,10 +8,11 @@ def decorater_function(func):
     return wrapper
 
 
-# Another function say_hello() can be decorated with the decorater_function
+# To decorate another function say_hello()
+# use the following syntax
 @decorater_function
 def say_hello():
     print("hello")
 
-
-say_hello()
+if __name__ == '__main__':
+    say_hello()
