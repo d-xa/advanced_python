@@ -1,4 +1,9 @@
 # advanced_python
 - lists
 - tuple
-- decorators
+- decorator
+- generators
+- functions
+- args_kwargs
+- yield
+- pattern matching

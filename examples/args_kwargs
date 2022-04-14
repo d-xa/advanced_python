@@ -1,0 +1,10 @@
+def my_func(*agrs, **kwargs):
+    print("hello world", agrs, kwargs)
+
+
+if __name__ == '__main__':
+    my_func()
+
+    my_func("from python")
+
+    my_func("a", 1, [0,0,0], True)
